@@ -8,8 +8,8 @@ title: michelle's blog
   {% for post in site.posts %}
 
     <div class="post">
-      {{ post.date | date: "%B %e, %Y" }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div><div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
+      <div class="clear"></div>
     </div>
 
   {% endfor %}
