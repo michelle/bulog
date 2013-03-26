@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-size: 15px;
+  line-height: 1.7em;
+  /*font-family: Myriad Pro, Arial;*/
+  font-family: 'Libre Baskerville', 'Georgia', 'Cambria', serif;
+}
+#title {
+  z-index: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#title h1 {
+  cursor: pointer;
+  font-size: 60px;
+  line-height: 1.2em;
+  text-shadow: 0 1px 0 #999, 0 -1px 0 #999;
+  color: #ccc;
+}
+#title a {
+  text-decoration: none;
+}
+
+#footer {
+  padding: 40px;
+}
+
+h1, h2, p {
+  padding: 10px 40px;
+  margin: 0;
+}
+h1 {
+  padding-top: 60px;
+  line-height: 1.2em;
+  text-shadow: 0 1px 0 #ca695e, 0 -1px 0 #ca695e;
+  color: #E89288;
+}
+#content h1 {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+}
+.date {
+  font-size: 14px;
+  text-shadow: none;
+  line-height: 1.8em;
+  color: #ddd;
+  text-shadow: 0 1px 0 #fff;
+  font-style: italic;
+  font-weight: 300;
+}
+h2 {
+  padding-top: 20px;
+  line-height: 1.2em;
+  color: #ACB8A1;
+  text-shadow: 0 1px 0 #7a8c69, 0 -1px 0 #7a8c69;
+}
+
+li {
+  margin-left: 40px;
+}
+
+
+a {
+  color: #89A190;
+}
+a:hover {
+  color: #678770;
+}
+
+#content {
+  z-index: 99;
+  position: relative;
+  border: 1px solid #ccc;
+  border-width: 0 1px;
+  background-color: #fff;
+  width: 640px;
+  margin: 0 auto;
+  color: #444;
+}
+
+code {
+  background-color: #eee;
+  font-family: Consolas, Inconsolata, 'Bitstream Vera Sans Mono', Monaco, Menlo, 'Andale Mono', 'Courier New', monospace;
+  font-weight 300;
+  letter-spacing: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+pre {
+  margin-left: -1px;
+  border: 1px solid #111;
+  text-shadow: none;
+  background-color: #444;
+  padding: 40px;
+  width: 560px;
+  overflow: hidden;
+  color: #fff;
+}
+pre code {
+  background: transparent;
+  font-size: 13px;
+  border: 0;
+  border-radius: 0px;
+  padding: 0;
+}
+
+/** SYNTAX HIGHLIGHTING */
+.p, .o {
+  color: #89A190;
+}
+.na, .kd {
+  color: #ACB8A1;
+}
+.s2, .s {
+  color: #E89288;
+}
+.nx, .nt {
+  color: #FCE4B6;
+}
+.mi {
+  color: #D4CFB1;
+}

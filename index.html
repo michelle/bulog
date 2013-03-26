@@ -1,0 +1,16 @@
+---
+layout: default
+title: michelle's blog
+---
+
+
+<div id="frontpage">
+  {% for post in site.posts %}
+
+    <div class="post">
+      {{ post.date | date: "%B %e, %Y" }}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+
+  {% endfor %}
+</div>
