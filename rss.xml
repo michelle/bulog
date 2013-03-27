@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>blog.michellebu.com - Michelle's blog</title>
+    <link>http://blog.michellebu.com/</link>
+    <atom:link href="http://blog.michellebu.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Sparse but bloggy thoughts.</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
+
+    {% for post in site.posts %}
+      <item>
+        <title>{{ post.title }}</title>
+        <link>http://blog.michellebu.com{{ post.url }}</link>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+        <author>Michelle Bu</author>
+        <guid>http://blog.michellebu.com{{ post.url }}</guid>
+        <description>{{ post.content | xml_escape }}</description>
+      </item>
+    {% endfor %}
+
+  </channel>
+</rss>
