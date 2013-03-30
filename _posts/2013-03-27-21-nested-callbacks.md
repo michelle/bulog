@@ -142,7 +142,7 @@ had already read enough of SICP to realize that my code was something ghastly
 and terrible. "But any beginner would make the same mistake, right?" I probed,
 embarrassed.
 
-"No, no programmer would do something this." He was not sarcastic. I wanted to
+"No, no programmer would do something like this." He was not sarcastic. I wanted to
 switch back into Molecular and Cellular Biology right then. But then he added,
 "No one would end up with code like this because they simply would not have had
 the patience."
